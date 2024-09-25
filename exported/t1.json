@@ -1,0 +1,34 @@
+{
+    "02-03": {
+        "subjects": [
+            "design:Proper Use of Functions, Documentation, Proper Function Declarations, Pointer Usage Conventions, Dynamic Memory Allocation Conventions",
+            "coding:Buffer Sanitization, Proper If-Else Usage, Implementation of Switch-Case Logic, Proper Loop Usage, Proper Array Usage, Proper Convention for Array Arguments and Return Values, Strings, Proper String Usage, String Input Testing, Proper 2D Array Usage, DRY Principle and Code Duplication",
+            "readability:Avoiding Descriptive Variables, Use of constants, Avoidig Magic Numbers, Appropriate loop constructs and idioms, Well-structured functions, Function Documentation, Test of No Magic Numbers in Switch Cases, Array Usage Conventions, 2D Array Usage Conventions"
+        ],
+        "description": "this program swaps two float values"
+    },
+    "02-04": {
+        "subjects": [
+            "design:Proper Use of Functions, Documentation, Proper Function Declarations, Pointer Usage Conventions, Dynamic Memory Allocation Conventions",
+            "coding:Buffer Sanitization, Proper If-Else Usage, Implementation of Switch-Case Logic, Proper Loop Usage, Proper Array Usage, Proper Convention for Array Arguments and Return Values, Strings, Proper String Usage, String Input Testing, Proper 2D Array Usage, DRY Principle and Code Duplication",
+            "readability:Avoiding Descriptive Variables, Use of constants, Avoidig Magic Numbers, Appropriate loop constructs and idioms, Well-structured functions, Function Documentation, Test of No Magic Numbers in Switch Cases, Array Usage Conventions, 2D Array Usage Conventions"
+        ],
+        "description": "This program prompts the user to input three decimal numbers (num1, num2, and num3), sorts them in ascending order, and then prints the sorted values."
+    },
+    "02-05": {
+        "subjects": [
+            "design:Proper Use of Functions, Documentation, Proper Function Declarations, Pointer Usage Conventions, Dynamic Memory Allocation Conventions",
+            "coding:Buffer Sanitization, Proper If-Else Usage, Implementation of Switch-Case Logic, Proper Loop Usage, Proper Array Usage, Proper Convention for Array Arguments and Return Values, Strings, Proper String Usage, String Input Testing, Proper 2D Array Usage, DRY Principle and Code Duplication",
+            "readability:Avoiding Descriptive Variables, Use of constants, Avoidig Magic Numbers, Appropriate loop constructs and idioms, Well-structured functions, Function Documentation, Test of No Magic Numbers in Switch Cases, Array Usage Conventions, 2D Array Usage Conventions"
+        ],
+        "description": "This C program prompts the user to enter two numbers, then calculates their sum using a function called add, and finally prints out the result."
+    },
+    "02-08": {
+        "subjects": [
+            "design:Proper Use of Functions, Documentation, Proper Function Declarations, Pointer Usage Conventions, Dynamic Memory Allocation Conventions",
+            "coding:Buffer Sanitization, Proper If-Else Usage, Implementation of Switch-Case Logic, Proper Loop Usage, Proper Array Usage, Proper Convention for Array Arguments and Return Values, Strings, Proper String Usage, String Input Testing, Proper 2D Array Usage, DRY Principle and Code Duplication",
+            "readability:Avoiding Descriptive Variables, Use of constants, Avoidig Magic Numbers, Appropriate loop constructs and idioms, Well-structured functions, Function Documentation, Test of No Magic Numbers in Switch Cases, Array Usage Conventions, 2D Array Usage Conventions"
+        ],
+        "description": "This program initializes an array of length ARR_LEN with values entered by the user using pointer arithmetic to Stores the input value in the array."
+    }
+}

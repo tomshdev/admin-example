@@ -1,0 +1,9 @@
+pydantic
+decorator
+flask==3.0.3
+flask-admin
+flask-mongoengine-3
+Flask-Session[mongodb]==0.8.0
+flask_wtf
+python-dotenv
+wtforms[email]
