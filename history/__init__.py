@@ -38,24 +38,22 @@ class History:
 
     # filter history messages for presenting in the chat/history/viewr 
     # based on filters function:
-    def _build_query(self, start_date, end_date, user):
+    def _build_query(self, start_date, end_date):
 
         # Prepare the query
         query = {}
 
         if start_date:
-            query["pbot.timestamp"] = {"$gte": start_date}
+            query["App.timestamp"] = {"$gte": start_date}
         if end_date:
-            if "pbot.timestamp" in query:
-                query["pbot.timestamp"]["$lte"] = end_date
+            if "App.timestamp" in query:
+                query["App.timestamp"]["$lte"] = end_date
             else:
-                query["pbot.timestamp"] = {"$lte": end_date}
-        if user:
-            query["pbot.user"] = user
+                query["App.timestamp"] = {"$lte": end_date}
 
         return query
 
-    def get_filtered_documents(self, start_date, end_date, user):
-        query = self._build_query(start_date, end_date, user)
+    def get_filtered_documents(self, start_date, end_date):
+        query = self._build_query(start_date, end_date)
         cursor = self.collection.find(query).sort("_id")
         return list(cursor)
